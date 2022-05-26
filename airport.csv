@@ -1,247 +1,256 @@
-﻿airport,title_ja,title_en
-HND,東京(羽田),Tokyo Haneda
-NRT,成田,Narita
-NGO,名古屋(中部),Nagoya Centrair
-NKM,名古屋(小牧),Nagoya Komaki
-ITM,大阪(伊丹),Osaka Itami
-KIX,大阪(関西),Osaka Kansai
-UKB,神戸,Kobe
-CTS,札幌(新千歳),Sapporo(New Chitose)
-OKD,札幌(丘珠),Sapporo Okadama
-FUK,福岡,Fukuoka
-OKA,那覇,Naha
-WKJ,稚内,Wakkanai
-RIS,利尻,Rishiri
-MBE,紋別,Monbetsu
-MMB,女満別,Memanbetsu
-SHB,中標津,Nakashibetsu
-KUH,釧路,Kushiro
-OBO,帯広,Obihiro
-AKJ,旭川,Asahikawa
-OIR,奥尻,Okushiri
-HKD,函館,Hakodate
-AOJ,青森,Aomori
-MSJ,三沢,Misawa
-HNA,花巻,Hanamaki
-ONJ,大館能代,Odate-Noshiro
-AXT,秋田,Akita
-GAJ,山形,Yamagata
-SYO,庄内,Shonai
-SDJ,仙台,Sendai
-FKS,福島,Fukushima
-HAC,八丈島,Hachijojima
-KIJ,新潟,Niigata
-TOY,富山,Toyama
-NTQ,能登,Noto
-KMQ,小松,Komatsu
-MMJ,松本,Matsumoto
-FSZ,静岡,Shizuoka
-SHM,南紀白浜,Nanki-Shirahama
-TJH,但馬,Tajima
-TTJ,鳥取,Tottori
-YGJ,米子,Yonago
-IZO,出雲,Izumo
-OKI,隠岐,Oki
-IWJ,石見,Iwami
-OKJ,岡山,Okayama
-HIJ,広島,Hiroshima
-IWK,岩国,Iwakuni
-UBJ,山口宇部,Yamaguchi-Ube
-TKS,徳島,Tokushima
-TAK,高松,Takamatsu
-MYJ,松山,Matsuyama
-KCZ,高知,Kochi
-KKJ,北九州,Kitakyushu
-OIT,大分,Oita
-HSG,佐賀,Saga
-NGS,長崎,Nagasaki
-FUJ,福江,Fukue
-IKI,壱岐,Iki
-TSJ,対馬,Tsushima
-KMJ,熊本,Kumamoto
-AXJ,天草,Amakusa
-KMI,宮崎,Miyazaki
-KOJ,鹿児島,Kagoshima
-TNE,種子島,Tanegashima
-KUM,屋久島,Yakushima
-KKX,喜界島,Kikaijima
-ASJ,奄美,Amami
-TKN,徳之島,Tokunoshima
-OKE,沖永良部,Okinoerabu
-RNJ,与論,Yoron
-KTD,北大東,Kitadaito
-MMD,南大東,Minamidaito
-UEO,久米島,Kumejima
-MMY,宮古,Miyako
-SHI,下地島,Shimojishima
-TRA,多良間,Tarama
-ISG,石垣,Ishigaki
-OGN,与那国,Yonaguni
-ASP,アリススプリングス,Alice Springs
-ATL,アトランタ,Atlanta
-AUH,アブダビ,Abu Dhabi
-BCN,バルセロナ,Barcelona
-BFI,シアトル(BFI),Seattle BFI
-BKI,コタキナバル,Kota Kinabalu
-BKK,バンコク(スワンナプーム),Bangkok Suvarnabhumi
-BNE,ブリスベン,Brisbane
-BOM,ムンバイ,Mumbai
-BOS,ボストン,Boston
-BRU,ブリュッセル,Brussels
-BWN,ブルネイ,Brunei
-CAI,カイロ,Cairo
-CAN,広州,Guangzhou
-CDG,パリ(CDG),Paris CDG
-CEB,セブ,Cebu
-CGK,ジャカルタ,Jakarta
-CGO,鄭州,Zhengzhou
-CGQ,長春,Changchun
-CJU,済州,Jeju
-CKG,重慶,Chongqing
-CMB,コロンボ,Colombo
-CNS,ケアンズ,Cairns
-CPH,コペンハーゲン,Copenhagen
-CRK,クラーク,Clark
-CSX,長沙,Changsha
-CTU,成都,Chengdu
-DAD,ダナン,Da Nang
-DBV,ドゥブロヴニク,Dubrovnik
-DEL,デリー,Delhi
-DEN,デンバー,Denver
-DFW,ダラス,Dallas
-DLC,大連,Dalian
-DME,モスクワ(ドモジェドヴォ),Moscow Domodedovo
-DMK,バンコク(ドンムアン),Bangkok Don Mueang
-DOH,ドーハ,Doha
-DPS,デンパサール,Denpasar
-DTW,デトロイト,Detroit
-DUS,デュッセルドルフ,Dusseldorf
-DXB,ドバイ,Dubai
-EWR,ニューアーク,Newark
-FAI,フェアバンクス,Fairbanks
-FCO,ローマ,Rome
-FRA,フランクフルト,Frankfurt
-GMP,ソウル(金浦),Seoul Gimpo
-GUM,グアム,Guam
-HAN,ハノイ,Hanoi
-HEL,ヘルシンキ,Helsinki
-HGH,杭州,Hangzhou
-HKG,香港,Hong Kong
-HNL,ホノルル,Honolulu
-HRB,ハルビン,Harbin
-IAD,ワシントン,Washington
-IAH,ヒューストン,Houston
-ICN,ソウル(仁川),Seoul Incheon
-IKT,イルクーツク,Irkutsk
-IST,イスタンブール,Istanbul
-JFK,ニューヨーク(JFK),New York JFK
-JIB,ジブチ,Djibouti
-KEF,ケプラヴィーク,Keflavik
-KHH,高雄,Kaohsiung
-KHI,カラチ,Karachi
-KHV,ハバロフスク,Khabarovsk
-KMG,昆明,Kunming
-KOA,コナ,Kona
-KRN,キルナ,Kiruna
-KTM,カトマンズ,Kathmandu
-KUL,クアラルンプール,Kuala Lumpur
-LAS,ラスベガス,Las Vegas
-LAX,ロサンゼルス,Los Angeles
-LHE,ラホール,Lahore
-LHR,ロンドン(LHR),London Heathrow
-LIS,リスボン,Lisbon
-LJU,リュブリャナ,Ljubljana
-MAD,マドリード,Madrid
-MEL,メルボルン,Melbourne
-MEX,メキシコシティ,Mexico City
-MFM,マカオ,Macau
-MNL,マニラ,Manila
-MSP,ミネアポリス,Minneapolis
-MUC,ミュンヘン,Munich
-MWX,務安,Muan
-MXP,ミラノ,Milan
-NAN,ナンディ,Nadi
-NKG,南京,Nanjing
-NOU,ヌメア,Noumea
-OVB,ノヴォシビルスク,Novosibirsk
-OOL,ゴールドコースト,Gold Coast
-OPO,ポルト,Porto
-ORD,シカゴ(ORD),Chicago ORD
-PAE,エバレット,Everett
-PDX,ポートランド,Portland
-PEK,北京,Beijing
-PHX,フェニックス,Phoenix
-PNH,プノンペン,Phnom Penh
-POM,ポートモレスビー,Port Moresby
-PPT,パペーテ,Papeete
-PQC,フーコック,Phu Quoc
-PUS,釜山,Busan
-PVG,上海(浦東),Shanghai Pudong
-RGN,ヤンゴン,Yangon
-RMQ,台中,Taichung
-ROR,パラオ,Palau
-SAN,サンディエゴ,San Diego
-SEA,シアトル・タコマ,Seattle-Tacoma
-SFO,サンフランシスコ,San Francisco
-SGN,ホーチミンシティ,Ho Chi Minh City
-SHA,上海(虹橋),Shanghai Hongqiao
-SHE,瀋陽,Shenyang
-SIN,シンガポール,Singapore
-SJC,サンノゼ,San Jose
-TNN,台南,Tainan
-SLC,ソルトレイクシティ,Salt Lake City
-SPN,サイパン,Saipan
-SVO,モスクワ(シェレメーチエヴォ),Moscow Sheremetyevo
-SYD,シドニー,Sydney
-SZX,深圳,Shenzhen
-TAE,大邱,Daegu
-TAO,青島,Qingdao
-TAS,タシュケント,Tashkent
-TNA,済南,Jinan
-TPE,台北(桃園),Taipei Taoyuan
-TSA,台北(松山),Taipei Song Shan
-TSN,天津,Tiangjin
-ADD,アディスアベバ,Addis Ababa
-AKL,オークランド(AKL),Auckland
-AMS,アムステルダム,Amsterdam
-ANC,アンカレッジ,Anchorage
-ULN,ウランバートル,Ulan Bator
-FOC,福州,Fuzhou
-SKD,サマルカンド,Samarkand
-UUS,ユジノサハリンスク,Yuzhno-Sakhalinsk
-VIE,ウィーン,Vienna
-VVO,ウラジオストク,Vladivostok
-WAW,ワルシャワ,Warsaw
-WUH,武漢,Wuhan
-XIY,西安,Xian
-XMN,廈門,Xiamen
-XNN,西寧,Xining
-YNT,煙台,Yantai
-YUL,モントリオール,Montreal
-YVR,バンクーバー,Vancouver
-YYC,カルガリー,Calgary
-YYZ,トロント,Toronto
-ZRH,チューリッヒ,Zurich
-NGB,寧波,Ningbo
-CXR,カムラン,Cam Ranh
-UUD,バイカル,Baikal
-DSM,デモイン,Des Moines
-MLE,マレ,Male
-ATH,アテネ,Athens
-NAP,ナポリ,Napoli
-VCE,ベニス,Venezia
-BGO,ベルゲン,Bergen
-PER,パース,Perth
-MAA,チェンナイ,Chennai
-JNB,ヨハネスブルグ,Johannesburg
-ISB,イスラマバード,Islamabad
-RUH,リヤド,Riyadh
-ARN,ストックホルム・アーランダ,Stockholm-Arlanda
-BLR,ベンガルール,Bangalore
-PKX,北京大興,Beijing Daxing
-DAC,ダッカ,Dhaka
-VDO,ヴァンドン,Van Don
-NQZ,ヌルスルタン,Nursultan
-WUX,無錫,Wuxi
-ADL,アデレード,Adelaide
-UBN,新ウランバートル,New Ulan Bator
+﻿airport,title_ja,title_en,ODPT,国
+HND,東京(羽田),Tokyo Haneda,有,国内
+NRT,成田,Narita,有,国内
+IBR,茨城,Ibaraki,無,国内
+NGO,名古屋(中部),Nagoya Centrair,有,国内
+NKM,名古屋(小牧),Nagoya Komaki,有,国内
+ITM,大阪(伊丹),Osaka Itami,有,国内
+KIX,大阪(関西),Osaka Kansai,有,国内
+UKB,神戸,Kobe,有,国内
+CTS,札幌(新千歳),Sapporo(New Chitose),有,国内
+OKD,札幌(丘珠),Sapporo Okadama,有,国内
+FUK,福岡,Fukuoka,有,国内
+OKA,那覇,Naha,有,国内
+WKJ,稚内,Wakkanai,有,国内
+RIS,利尻,Rishiri,有,国内
+MBE,紋別,Monbetsu,有,国内
+MMB,女満別,Memanbetsu,有,国内
+SHB,中標津,Nakashibetsu,有,国内
+KUH,釧路,Kushiro,有,国内
+OBO,帯広,Obihiro,有,国内
+AKJ,旭川,Asahikawa,有,国内
+OIR,奥尻,Okushiri,有,国内
+HKD,函館,Hakodate,有,国内
+AOJ,青森,Aomori,有,国内
+MSJ,三沢,Misawa,有,国内
+ONJ,大館能代,Odate-Noshiro,有,国内
+AXT,秋田,Akita,有,国内
+HNA,花巻,Hanamaki,有,国内
+SYO,庄内,Shonai,有,国内
+GAJ,山形,Yamagata,有,国内
+SDJ,仙台,Sendai,有,国内
+FKS,福島,Fukushima,有,国内
+KIJ,新潟,Niigata,有,国内
+TOY,富山,Toyama,有,国内
+NTQ,能登,Noto,有,国内
+KMQ,小松,Komatsu,有,国内
+MMJ,松本,Matsumoto,有,国内
+調布,調布,Chofu,無,国内
+OIM,大島,Oshima,無,国内
+利島,利島,Toshima,無,国内
+新島,新島,Niijima,無,国内
+神津島,神津島,Kozushima,無,国内
+MYE,三宅島,Miyakejima,無,国内
+御蔵島,御蔵島,Mikurajima,無,国内
+HAC,八丈島,Hachijojima,有,国内
+青ヶ島,青ヶ島,Aogashima,無,国内
+FSZ,静岡,Shizuoka,有,国内
+SHM,南紀白浜,Nanki-Shirahama,有,国内
+TJH,但馬,Tajima,有,国内
+TTJ,鳥取,Tottori,有,国内
+YGJ,米子,Yonago,有,国内
+IZO,出雲,Izumo,有,国内
+OKI,隠岐,Oki,有,国内
+IWJ,石見,Iwami,有,国内
+OKJ,岡山,Okayama,有,国内
+HIJ,広島,Hiroshima,有,国内
+IWK,岩国,Iwakuni,有,国内
+UBJ,山口宇部,Yamaguchi-Ube,有,国内
+TKS,徳島,Tokushima,有,国内
+TAK,高松,Takamatsu,有,国内
+KCZ,高知,Kochi,有,国内
+MYJ,松山,Matsuyama,有,国内
+KKJ,北九州,Kitakyushu,有,国内
+OIT,大分,Oita,有,国内
+HSG,佐賀,Saga,有,国内
+NGS,長崎,Nagasaki,有,国内
+FUJ,福江,Fukue,有,国内
+IKI,壱岐,Iki,有,国内
+TSJ,対馬,Tsushima,有,国内
+KMJ,熊本,Kumamoto,有,国内
+AXJ,天草,Amakusa,有,国内
+KMI,宮崎,Miyazaki,有,国内
+KOJ,鹿児島,Kagoshima,有,国内
+TNE,種子島,Tanegashima,有,国内
+KUM,屋久島,Yakushima,有,国内
+KKX,喜界島,Kikaijima,有,国内
+ASJ,奄美,Amami,有,国内
+TKN,徳之島,Tokunoshima,有,国内
+OKE,沖永良部,Okinoerabu,有,国内
+RNJ,与論,Yoron,有,国内
+KTD,北大東,Kitadaito,有,国内
+MMD,南大東,Minamidaito,有,国内
+UEO,久米島,Kumejima,有,国内
+MMY,宮古,Miyako,有,国内
+SHI,下地島,Shimojishima,有,国内
+TRA,多良間,Tarama,有,国内
+ISG,石垣,Ishigaki,有,国内
+OGN,与那国,Yonaguni,有,国内
+ASP,アリススプリングス,Alice Springs,有,国外
+ATL,アトランタ,Atlanta,有,国外
+AUH,アブダビ,Abu Dhabi,有,国外
+BCN,バルセロナ,Barcelona,有,国外
+BFI,シアトル(BFI),Seattle BFI,有,国外
+BKI,コタキナバル,Kota Kinabalu,有,国外
+BKK,バンコク(スワンナプーム),Bangkok Suvarnabhumi,有,国外
+BNE,ブリスベン,Brisbane,有,国外
+BOM,ムンバイ,Mumbai,有,国外
+BOS,ボストン,Boston,有,国外
+BRU,ブリュッセル,Brussels,有,国外
+BWN,ブルネイ,Brunei,有,国外
+CAI,カイロ,Cairo,有,国外
+CAN,広州,Guangzhou,有,国外
+CDG,パリ(CDG),Paris CDG,有,国外
+CEB,セブ,Cebu,有,国外
+CGK,ジャカルタ,Jakarta,有,国外
+CGO,鄭州,Zhengzhou,有,国外
+CGQ,長春,Changchun,有,国外
+CJU,済州,Jeju,有,国外
+CKG,重慶,Chongqing,有,国外
+CMB,コロンボ,Colombo,有,国外
+CNS,ケアンズ,Cairns,有,国外
+CPH,コペンハーゲン,Copenhagen,有,国外
+CRK,クラーク,Clark,有,国外
+CSX,長沙,Changsha,有,国外
+CTU,成都,Chengdu,有,国外
+DAD,ダナン,Da Nang,有,国外
+DBV,ドゥブロヴニク,Dubrovnik,有,国外
+DEL,デリー,Delhi,有,国外
+DEN,デンバー,Denver,有,国外
+DFW,ダラス,Dallas,有,国外
+DLC,大連,Dalian,有,国外
+DME,モスクワ(ドモジェドヴォ),Moscow Domodedovo,有,国外
+DMK,バンコク(ドンムアン),Bangkok Don Mueang,有,国外
+DOH,ドーハ,Doha,有,国外
+DPS,デンパサール,Denpasar,有,国外
+DTW,デトロイト,Detroit,有,国外
+DUS,デュッセルドルフ,Dusseldorf,有,国外
+DXB,ドバイ,Dubai,有,国外
+EWR,ニューアーク,Newark,有,国外
+FAI,フェアバンクス,Fairbanks,有,国外
+FCO,ローマ,Rome,有,国外
+FRA,フランクフルト,Frankfurt,有,国外
+GMP,ソウル(金浦),Seoul Gimpo,有,国外
+GUM,グアム,Guam,有,国外
+HAN,ハノイ,Hanoi,有,国外
+HEL,ヘルシンキ,Helsinki,有,国外
+HGH,杭州,Hangzhou,有,国外
+HKG,香港,Hong Kong,有,国外
+HNL,ホノルル,Honolulu,有,国外
+HRB,ハルビン,Harbin,有,国外
+IAD,ワシントン,Washington,有,国外
+IAH,ヒューストン,Houston,有,国外
+ICN,ソウル(仁川),Seoul Incheon,有,国外
+IKT,イルクーツク,Irkutsk,有,国外
+IST,イスタンブール,Istanbul,有,国外
+JFK,ニューヨーク(JFK),New York JFK,有,国外
+JIB,ジブチ,Djibouti,有,国外
+KEF,ケプラヴィーク,Keflavik,有,国外
+KHH,高雄,Kaohsiung,有,国外
+KHI,カラチ,Karachi,有,国外
+KHV,ハバロフスク,Khabarovsk,有,国外
+KMG,昆明,Kunming,有,国外
+KOA,コナ,Kona,有,国外
+KRN,キルナ,Kiruna,有,国外
+KTM,カトマンズ,Kathmandu,有,国外
+KUL,クアラルンプール,Kuala Lumpur,有,国外
+LAS,ラスベガス,Las Vegas,有,国外
+LAX,ロサンゼルス,Los Angeles,有,国外
+LHE,ラホール,Lahore,有,国外
+LHR,ロンドン(LHR),London Heathrow,有,国外
+LIS,リスボン,Lisbon,有,国外
+LJU,リュブリャナ,Ljubljana,有,国外
+MAD,マドリード,Madrid,有,国外
+MEL,メルボルン,Melbourne,有,国外
+MEX,メキシコシティ,Mexico City,有,国外
+MFM,マカオ,Macau,有,国外
+MNL,マニラ,Manila,有,国外
+MSP,ミネアポリス,Minneapolis,有,国外
+MUC,ミュンヘン,Munich,有,国外
+MWX,務安,Muan,有,国外
+MXP,ミラノ,Milan,有,国外
+NAN,ナンディ,Nadi,有,国外
+NKG,南京,Nanjing,有,国外
+NOU,ヌメア,Noumea,有,国外
+OVB,ノヴォシビルスク,Novosibirsk,有,国外
+OOL,ゴールドコースト,Gold Coast,有,国外
+OPO,ポルト,Porto,有,国外
+ORD,シカゴ(ORD),Chicago ORD,有,国外
+PAE,エバレット,Everett,有,国外
+PDX,ポートランド,Portland,有,国外
+PEK,北京,Beijing,有,国外
+PHX,フェニックス,Phoenix,有,国外
+PNH,プノンペン,Phnom Penh,有,国外
+POM,ポートモレスビー,Port Moresby,有,国外
+PPT,パペーテ,Papeete,有,国外
+PQC,フーコック,Phu Quoc,有,国外
+PUS,釜山,Busan,有,国外
+PVG,上海(浦東),Shanghai Pudong,有,国外
+RGN,ヤンゴン,Yangon,有,国外
+RMQ,台中,Taichung,有,国外
+ROR,パラオ,Palau,有,国外
+SAN,サンディエゴ,San Diego,有,国外
+SEA,シアトル・タコマ,Seattle-Tacoma,有,国外
+SFO,サンフランシスコ,San Francisco,有,国外
+SGN,ホーチミンシティ,Ho Chi Minh City,有,国外
+SHA,上海(虹橋),Shanghai Hongqiao,有,国外
+SHE,瀋陽,Shenyang,有,国外
+SIN,シンガポール,Singapore,有,国外
+SJC,サンノゼ,San Jose,有,国外
+TNN,台南,Tainan,有,国外
+SLC,ソルトレイクシティ,Salt Lake City,有,国外
+SPN,サイパン,Saipan,有,国外
+SVO,モスクワ(シェレメーチエヴォ),Moscow Sheremetyevo,有,国外
+SYD,シドニー,Sydney,有,国外
+SZX,深圳,Shenzhen,有,国外
+TAE,大邱,Daegu,有,国外
+TAO,青島,Qingdao,有,国外
+TAS,タシュケント,Tashkent,有,国外
+TNA,済南,Jinan,有,国外
+TPE,台北(桃園),Taipei Taoyuan,有,国外
+TSA,台北(松山),Taipei Song Shan,有,国外
+TSN,天津,Tiangjin,有,国外
+ADD,アディスアベバ,Addis Ababa,有,国外
+AKL,オークランド(AKL),Auckland,有,国外
+AMS,アムステルダム,Amsterdam,有,国外
+ANC,アンカレッジ,Anchorage,有,国外
+ULN,ウランバートル,Ulan Bator,有,国外
+FOC,福州,Fuzhou,有,国外
+SKD,サマルカンド,Samarkand,有,国外
+UUS,ユジノサハリンスク,Yuzhno-Sakhalinsk,有,国外
+VIE,ウィーン,Vienna,有,国外
+VVO,ウラジオストク,Vladivostok,有,国外
+WAW,ワルシャワ,Warsaw,有,国外
+WUH,武漢,Wuhan,有,国外
+XIY,西安,Xian,有,国外
+XMN,廈門,Xiamen,有,国外
+XNN,西寧,Xining,有,国外
+YNT,煙台,Yantai,有,国外
+YUL,モントリオール,Montreal,有,国外
+YVR,バンクーバー,Vancouver,有,国外
+YYC,カルガリー,Calgary,有,国外
+YYZ,トロント,Toronto,有,国外
+ZRH,チューリッヒ,Zurich,有,国外
+NGB,寧波,Ningbo,有,国外
+CXR,カムラン,Cam Ranh,有,国外
+UUD,バイカル,Baikal,有,国外
+DSM,デモイン,Des Moines,有,国外
+MLE,マレ,Male,有,国外
+ATH,アテネ,Athens,有,国外
+NAP,ナポリ,Napoli,有,国外
+VCE,ベニス,Venezia,有,国外
+BGO,ベルゲン,Bergen,有,国外
+PER,パース,Perth,有,国外
+MAA,チェンナイ,Chennai,有,国外
+JNB,ヨハネスブルグ,Johannesburg,有,国外
+ISB,イスラマバード,Islamabad,有,国外
+RUH,リヤド,Riyadh,有,国外
+ARN,ストックホルム・アーランダ,Stockholm-Arlanda,有,国外
+BLR,ベンガルール,Bangalore,有,国外
+PKX,北京大興,Beijing Daxing,有,国外
+DAC,ダッカ,Dhaka,有,国外
+VDO,ヴァンドン,Van Don,有,国外
+NQZ,ヌルスルタン,Nursultan,有,国外
+WUX,無錫,Wuxi,有,国外
+ADL,アデレード,Adelaide,有,国外
+UBN,新ウランバートル,New Ulan Bator,有,国外
