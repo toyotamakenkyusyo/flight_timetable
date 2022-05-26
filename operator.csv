@@ -1,10 +1,19 @@
-﻿"operator","title_ja","title_en"
-"ANA","全日本空輸","All Nippon Airways"
-"JAL","日本航空","Japan Airlines"
-"ADO","エア・ドゥ","AIR DO"
-"AJX","エアージャパン","Air Japan"
-"IBX","アイベックスエアラインズ","IBEX Airlines"
-"JTA","日本トランスオーシャン航空","Japan Transocean Air"
-"ORC","オリエンタルエアブリッジ","Oriental Air Bridge"
-"SFJ","スターフライヤー","Star Flyer"
-"SNJ","ソラシドエア","Solaseed Air"
+﻿operator,title_ja,title_en,ODPT
+ANA,全日本空輸,All Nippon Airways,有
+JAL,日本航空,Japan Airlines,有
+ADO,エア・ドゥ,AIR DO,有
+AJX,エアージャパン,Air Japan,有
+IBX,アイベックスエアラインズ,IBEX Airlines,有
+JTA,日本トランスオーシャン航空,Japan Transocean Air,有
+ORC,オリエンタルエアブリッジ,Oriental Air Bridge,有
+SFJ,スターフライヤー,Star Flyer,有
+SNJ,ソラシドエア,Solaseed Air,有
+RAC,琉球エアーコミューター,,無
+SKY,スカイマーク,,無
+APJ,Peach・Aviation,,無
+JJP,ジェットスター・ジャパン,,無
+FDA,フジドリームエアラインズ,,無
+CUK,新中央航空,,無
+AHX,天草エアライン,,無
+THK,東邦航空,,無
+SJO,スプリング・ジャパン,,無
