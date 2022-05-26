@@ -115,10 +115,57 @@ async function f_main() {
 	}
 	l_operator_index += "</table>";
 	
-	const c_div1 = document.getElementById("div1").innerHTML = l_operator_index + l_index_html + l_html;
 	
 	
+	// 一覧表作成
+	let l_table_html = "<h2>日本国内線路線一覧表</h2><table style=\"width: auto;\">";
+	// 空港名
+	l_table_html += "<tr><td>　　　</td><td>　　　　　　　</td>";
+	for (let i1 = 0; i1 < c_airports.length; i1++) {
+		if (c_airports[i1]["国"] === "国外") {
+			continue;
+		}
+		l_table_html += "<td><span style=\"writing-mode: vertical-rl; line-height: 1em; width: 1em;\"><a href=\"#" + c_airports[i1]["airport"] + "\">" + c_airports[i1]["airport"] + "</a></span></td>";
+	}
+	l_table_html += "</tr>";
+	l_table_html += "<tr><td></td><td></td>";
+	for (let i1 = 0; i1 < c_airports.length; i1++) {
+		if (c_airports[i1]["国"] === "国外") {
+			continue;
+		}
+		l_table_html += "<td><span style=\"writing-mode: vertical-rl; line-height: 1em; width: 1em;\"><a href=\"#" + c_airports[i1]["airport"] + "\">" + c_airports[i1]["title_ja"] + "</a></span></td>";
+	}
+	l_table_html += "</tr>";
+	// 本体
+	for (let i1 = 0; i1 < c_airports.length; i1++) {
+		if (c_airports[i1]["国"] === "国外") {
+			continue;
+		}
+		l_table_html += "<tr>";
+		l_table_html += "<td><a href=\"#" + c_airports[i1]["airport"] + "\">" + c_airports[i1]["airport"] + "</a></td><td><a href=\"#" + c_airports[i1]["airport"] + "\">" + c_airports[i1]["title_ja"] + "</a></td>";
+		for (let i2 = 0; i2 < c_airports.length; i2++) {
+			if (c_airports[i2]["国"] === "国外") {
+				continue;
+			}
+			const c_o = c_airports[i1]["airport"];
+			const c_d = c_airports[i2]["airport"];
+			const c_od = c_o + "_" + c_d;
+			const c_do = c_d + "_" + c_o;
+			let l_td = "<td></td>";
+			if (c_od_index[c_od] !== undefined || c_od_index[c_do] !== undefined) {
+				if (i1 < i2) {
+					l_td = "<td><a href=\"#" + c_do + "\">●</a></td>";
+				} else {
+					l_td = "<td><a href=\"#" + c_od + "\">●</a></td>";
+				}
+			}
+			l_table_html += l_td;
+		}
+		l_table_html += "</tr>";
+	}
+	l_table_html += "</table>";
 	
+	const c_div1 = document.getElementById("div1").innerHTML = l_operator_index + l_table_html + l_index_html + l_html;
 }
 
 function f_convert_csv_to_json(a_csv) {
