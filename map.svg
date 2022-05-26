@@ -9448,6 +9448,7 @@
        y="120"
        id="text4878">背景地図の出典：地理院タイル（<a
    id="a8538"
+   target="_parent"
    xlink:href="https://maps.gsi.go.jp/development/ichiran.html"><tspan
      style="fill:#0000ff"
      id="tspan6622">https://maps.gsi.go.jp/development/ichiran.html</tspan></a>）</text>
@@ -9464,6 +9465,7 @@
        y="160"
        id="text12024">外部ファイルの背景地図画像を除く本SVGファイルは次のライセンスで提供しています：CC0 1.0 全世界 (CC0 1.0) パブリック・ドメイン提供 (<a
    id="a12812"
+   target="_parent"
    xlink:href="https://creativecommons.org/publicdomain/zero/1.0/"><tspan
      style="fill:#0000ff"
      id="tspan12678">https://creativecommons.org/publicdomain/zero/1.0/</tspan></a>)</text>
