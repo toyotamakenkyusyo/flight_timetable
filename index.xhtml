@@ -9,14 +9,13 @@
 f_main();
 async function f_main() {
 	const c_schedules = f_convert_csv_to_json(await ((await (fetch("schedule.csv"))).text()));
-	const c_no_schedules = f_convert_csv_to_json(await ((await (fetch("no_schedule.csv"))).text()));
+	const c_add_schedules = f_convert_csv_to_json(await ((await (fetch("add_schedule.csv"))).text()));
 	const c_airports = f_convert_csv_to_json(await ((await (fetch("airport.csv"))).text()));
 	const c_operators = f_convert_csv_to_json(await ((await (fetch("operator.csv"))).text()));
 	
-	// 時刻がないものを追加
-	for (const c_route of c_no_schedules) {
-		c_schedules.push({"operator": "","origin_airport": c_route["origin_airport"],"destination_airport": c_route["destination_airport"],"airline": c_route["airline"],"flight_number": "","aircraft_type": "","origin_time": "","origin_day_difference": "","destination_time": "","destination_day_difference": "","calendar": "","is_valid_from": "","is_valid_to": "","note_ja": "時刻データ未入力","date": ""});
-		c_schedules.push({"operator": "","origin_airport": c_route["destination_airport"],"destination_airport": c_route["origin_airport"],"airline": c_route["airline"],"flight_number": "","aircraft_type": "","origin_time": "","origin_day_difference": "","destination_time": "","destination_day_difference": "","calendar": "","is_valid_from": "","is_valid_to": "","note_ja": "時刻データ未入力","date": ""});
+	// ODPT時刻がないものを追加
+	for (const c_trip of c_add_schedules) {
+		c_schedules.push(c_trip);
 	}
 	
 	const c_od_index = {};
@@ -199,6 +198,9 @@ function f_convert_csv_to_json(a_csv) {
 	for (let i1 = 1; i1 < c_array.length; i1++) {
 		c_json.push({});
 		for (let i2 = 0; i2 < c_array[i1].length; i2++) {
+			if(c_array[i1][0] === undefined) {
+				c_array[i1][0] = ""; // エラー対応
+			}
 			c_json[i1 - 1][c_array[0][i2]] = c_array[i1][i2].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;").replace("'", "&apos;");
 		}
 	}
@@ -234,9 +236,11 @@ function f_sort_destination_time(a1, a2) {
 		<p>2022-05-26 路線一覧表追加</p>
 		<p>2022-05-26 時刻なし路線追加</p>
 		<p>2022-05-27 時刻データ更新</p>
+		<p>2022-05-29 ODPTにない時刻データ追加</p>
 		<p>本ウェブサイトは必ずしも最新・正確な情報を載せているわけではありません。</p>
-		<p>時刻は、公共交通オープンデータセンターにおいて提供される公共交通データを利用しています。公共交通事業者により提供されたデータを元にしていますが、必ずしも正確・完全なものとは限りません。表示内容について、公共交通事業者への直接の問合せは行わないでください。お問い合わせは、以下のウェブサイトのメールアドレスにお願いします。豐多摩研究所 トップページ <a href="https://ss1.xrea.com/toyotama.g1.xrea.com/index.xhtml">https://ss1.xrea.com/toyotama.g1.xrea.com/index.xhtml</a></p>
-		<p>ANAの国内線と国際線、JALの国内線等は含まれますが、全ての運航会社を網羅しているものではありません。ODPTの時刻では、ジェイエア、日本エアコミューター、北海道エアシステム、ANAウイングス、エアージャパンは、運送の共同引受を行っている日本航空と全日本空輸のデータとして入っているようです。フジドリームエアラインズ、天草エアラインは全便日本航空とのコードシェアとなっているようで、便名の記載を省略しています（注釈でFDA、AMXと表記）。国際線のみの日本貨物航空とZIPAIR Tokyoは載せていません。</p>
+		<p>全日本空輸、日本航空、エア・ドゥ、エアージャパン、アイベックスエアラインズ、日本トランスオーシャン航空、オリエンタルエアブリッジ、スターフライヤー、ソラシドエアの時刻は、公共交通オープンデータセンターにおいて提供される公共交通データを利用しています。公共交通事業者により提供されたデータを元にしていますが、必ずしも正確・完全なものとは限りません。表示内容について、公共交通事業者への直接の問合せは行わないでください。お問い合わせは、以下のウェブサイトのメールアドレスにお願いします。豐多摩研究所 トップページ <a href="https://ss1.xrea.com/toyotama.g1.xrea.com/index.xhtml">https://ss1.xrea.com/toyotama.g1.xrea.com/index.xhtml</a></p>
+		<p>ODPTの時刻では、ジェイエア、日本エアコミューター、北海道エアシステム、ANAウイングス、エアージャパンは、運送の共同引受を行っている日本航空と全日本空輸のデータとして入っているようです。フジドリームエアラインズ、天草エアラインは全便日本航空とのコードシェアとなっているようで、便名の記載を省略しています（注釈でFDA、AMXと表記）。</p>
+		<p>2022年5月28日時点の国内線を入れていますが、すべて網羅できているかわかりません。ANAの国際線はODPTに入っているようですが、国際線は網羅していません。国際線のみの日本貨物航空とZIPAIR Tokyoは載せていません。</p>
 		<p>出発時刻と到着時刻は現地時間、有効期間は日本標準時（UTC+9）によります。</p>
 		<object data="map.svg" style="width:auto;"></object>
 		<p>上の路線図上の空港名や□をクリックすると、空港または路線の時刻表へ移動します。</p>
